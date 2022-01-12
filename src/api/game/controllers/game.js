@@ -6,7 +6,7 @@ module.exports = createCoreController("api::game.game", () => ({
   async populate(ctx) {
     console.log("Starting to populate...")
 
-    console.log(ctx.query)
+    await strapi.service('api::game.game').populate()
 
     ctx.send("Finished populating!")
   },
