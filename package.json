@@ -16,7 +16,8 @@
     "@strapi/plugin-users-permissions": "4.0.4",
     "@strapi/strapi": "4.0.4",
     "pg": "8.6.0",
-    "strapi-plugin-ckeditor5": "^2.0.0-rc.2"
+    "strapi-plugin-ckeditor5": "^2.0.0-rc.2",
+    "strapi-plugin-entity-relationship-chart": "^4.0.2"
   },
   "author": {
     "name": "A Strapi developer"
